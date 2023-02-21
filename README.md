@@ -2,7 +2,7 @@
 
 BIAN(Background items added notification) killer helps you kill all these stupid & annoying notifications automatically.
 
-<video src="BackgroundItemsAddedKiller/demo.mp4"></video>
+<video src="https://user-images.githubusercontent.com/51731239/220240911-cab0ecaa-0c9c-481d-8d99-dbfd2553d50a.mp4"></video>
 
 # How did it works?
 
