@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct BackgroundItemsAddedKillerApp: App {
+
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .fixedSize()
         }
+        .windowResizability(.contentSize)
     }
+
 }

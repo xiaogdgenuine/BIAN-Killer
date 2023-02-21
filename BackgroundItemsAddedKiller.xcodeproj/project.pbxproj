@@ -11,15 +11,34 @@
 		8976310629A1C97A00596D3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8976310529A1C97A00596D3B /* ContentView.swift */; };
 		8976310829A1C97B00596D3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8976310729A1C97B00596D3B /* Assets.xcassets */; };
 		8976310B29A1C97B00596D3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8976310A29A1C97B00596D3B /* Preview Assets.xcassets */; };
+		8976311429A1C9E600596D3B /* AXSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8976311329A1C9E600596D3B /* AXSwift */; };
+		8976311C29A374A300596D3B /* TimedSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8976311B29A374A300596D3B /* TimedSequence.swift */; };
+		8976311E29A374D100596D3B /* NotificationMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8976311D29A374D100596D3B /* NotificationMonitor.swift */; };
+		8986E84A29A3969A000B1154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986E84929A3969A000B1154 /* AppDelegate.swift */; };
+		8986E84E29A39C48000B1154 /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8986E84D29A39C34000B1154 /* demo.mp4 */; };
+		8986E85029A3A3D8000B1154 /* RectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986E84F29A3A3D8000B1154 /* RectangleButton.swift */; };
+		8986E85229A3A458000B1154 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986E85129A3A458000B1154 /* ViewExtensions.swift */; };
+		899AB34429A3BE0100AB37E1 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 899AB34329A3BE0100AB37E1 /* LaunchAtLogin */; };
+		899AB34929A3C04F00AB37E1 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899AB34829A3C04F00AB37E1 /* AVKit.framework */; };
+		89E20C6529A4689B00125140 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E20C6429A4689B00125140 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8976310029A1C97A00596D3B /* BackgroundItemsAddedKiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundItemsAddedKiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8976310029A1C97A00596D3B /* BIAN Killer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BIAN Killer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8976310329A1C97A00596D3B /* BackgroundItemsAddedKillerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundItemsAddedKillerApp.swift; sourceTree = "<group>"; };
 		8976310529A1C97A00596D3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8976310729A1C97B00596D3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8976310A29A1C97B00596D3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8976310C29A1C97B00596D3B /* BackgroundItemsAddedKiller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BackgroundItemsAddedKiller.entitlements; sourceTree = "<group>"; };
+		8976311B29A374A300596D3B /* TimedSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimedSequence.swift; sourceTree = "<group>"; };
+		8976311D29A374D100596D3B /* NotificationMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMonitor.swift; sourceTree = "<group>"; };
+		8986E84929A3969A000B1154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8986E84D29A39C34000B1154 /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mp4; sourceTree = "<group>"; };
+		8986E84F29A3A3D8000B1154 /* RectangleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleButton.swift; sourceTree = "<group>"; };
+		8986E85129A3A458000B1154 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		899AB34829A3C04F00AB37E1 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		89E20C6329A4630D00125140 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		89E20C6429A4689B00125140 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +46,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899AB34429A3BE0100AB37E1 /* LaunchAtLogin in Frameworks */,
+				8976311429A1C9E600596D3B /* AXSwift in Frameworks */,
+				899AB34929A3C04F00AB37E1 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,13 +60,14 @@
 			children = (
 				8976310229A1C97A00596D3B /* BackgroundItemsAddedKiller */,
 				8976310129A1C97A00596D3B /* Products */,
+				899AB34729A3C04F00AB37E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		8976310129A1C97A00596D3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8976310029A1C97A00596D3B /* BackgroundItemsAddedKiller.app */,
+				8976310029A1C97A00596D3B /* BIAN Killer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,11 +75,14 @@
 		8976310229A1C97A00596D3B /* BackgroundItemsAddedKiller */ = {
 			isa = PBXGroup;
 			children = (
+				8976311829A373BC00596D3B /* Source */,
 				8976310329A1C97A00596D3B /* BackgroundItemsAddedKillerApp.swift */,
-				8976310529A1C97A00596D3B /* ContentView.swift */,
+				8986E84929A3969A000B1154 /* AppDelegate.swift */,
 				8976310729A1C97B00596D3B /* Assets.xcassets */,
+				8986E84D29A39C34000B1154 /* demo.mp4 */,
 				8976310C29A1C97B00596D3B /* BackgroundItemsAddedKiller.entitlements */,
 				8976310929A1C97B00596D3B /* Preview Content */,
+				89E20C6329A4630D00125140 /* README.md */,
 			);
 			path = BackgroundItemsAddedKiller;
 			sourceTree = "<group>";
@@ -69,12 +95,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8976311829A373BC00596D3B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				89E20C6429A4689B00125140 /* AboutView.swift */,
+				8976310529A1C97A00596D3B /* ContentView.swift */,
+				8976311B29A374A300596D3B /* TimedSequence.swift */,
+				8976311D29A374D100596D3B /* NotificationMonitor.swift */,
+				8986E84F29A3A3D8000B1154 /* RectangleButton.swift */,
+				8986E85129A3A458000B1154 /* ViewExtensions.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		899AB34729A3C04F00AB37E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				899AB34829A3C04F00AB37E1 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		897630FF29A1C97A00596D3B /* BackgroundItemsAddedKiller */ = {
+		897630FF29A1C97A00596D3B /* BIAN Killer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8976310F29A1C97B00596D3B /* Build configuration list for PBXNativeTarget "BackgroundItemsAddedKiller" */;
+			buildConfigurationList = 8976310F29A1C97B00596D3B /* Build configuration list for PBXNativeTarget "BIAN Killer" */;
 			buildPhases = (
 				897630FC29A1C97A00596D3B /* Sources */,
 				897630FD29A1C97A00596D3B /* Frameworks */,
@@ -84,9 +131,13 @@
 			);
 			dependencies = (
 			);
-			name = BackgroundItemsAddedKiller;
+			name = "BIAN Killer";
+			packageProductDependencies = (
+				8976311329A1C9E600596D3B /* AXSwift */,
+				899AB34329A3BE0100AB37E1 /* LaunchAtLogin */,
+			);
 			productName = BackgroundItemsAddedKiller;
-			productReference = 8976310029A1C97A00596D3B /* BackgroundItemsAddedKiller.app */;
+			productReference = 8976310029A1C97A00596D3B /* BIAN Killer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,11 +164,15 @@
 				Base,
 			);
 			mainGroup = 897630F729A1C97A00596D3B;
+			packageReferences = (
+				8976311229A1C9E600596D3B /* XCRemoteSwiftPackageReference "AXSwift" */,
+				899AB34229A3BE0100AB37E1 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+			);
 			productRefGroup = 8976310129A1C97A00596D3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				897630FF29A1C97A00596D3B /* BackgroundItemsAddedKiller */,
+				897630FF29A1C97A00596D3B /* BIAN Killer */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8976310B29A1C97B00596D3B /* Preview Assets.xcassets in Resources */,
+				8986E84E29A39C48000B1154 /* demo.mp4 in Resources */,
 				8976310829A1C97B00596D3B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E20C6529A4689B00125140 /* AboutView.swift in Sources */,
+				8986E85029A3A3D8000B1154 /* RectangleButton.swift in Sources */,
 				8976310629A1C97A00596D3B /* ContentView.swift in Sources */,
+				8986E85229A3A458000B1154 /* ViewExtensions.swift in Sources */,
+				8976311E29A374D100596D3B /* NotificationMonitor.swift in Sources */,
+				8986E84A29A3969A000B1154 /* AppDelegate.swift in Sources */,
 				8976310429A1C97A00596D3B /* BackgroundItemsAddedKillerApp.swift in Sources */,
+				8976311C29A374A300596D3B /* TimedSequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,13 +336,16 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BIAN Killer";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiaogd.BackgroundItemsAddedKiller;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaogd.BIAN-Killer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -301,13 +366,16 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BIAN Killer";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiaogd.BackgroundItemsAddedKiller;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaogd.BIAN-Killer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -326,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8976310F29A1C97B00596D3B /* Build configuration list for PBXNativeTarget "BackgroundItemsAddedKiller" */ = {
+		8976310F29A1C97B00596D3B /* Build configuration list for PBXNativeTarget "BIAN Killer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8976311029A1C97B00596D3B /* Debug */,
@@ -336,6 +404,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8976311229A1C9E600596D3B /* XCRemoteSwiftPackageReference "AXSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tmandry/AXSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+		899AB34229A3BE0100AB37E1 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8976311329A1C9E600596D3B /* AXSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8976311229A1C9E600596D3B /* XCRemoteSwiftPackageReference "AXSwift" */;
+			productName = AXSwift;
+		};
+		899AB34329A3BE0100AB37E1 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 899AB34229A3BE0100AB37E1 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 897630F829A1C97A00596D3B /* Project object */;
 }
