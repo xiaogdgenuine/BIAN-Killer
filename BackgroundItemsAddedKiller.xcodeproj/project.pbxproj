@@ -37,7 +37,6 @@
 		8986E84F29A3A3D8000B1154 /* RectangleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleButton.swift; sourceTree = "<group>"; };
 		8986E85129A3A458000B1154 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		899AB34829A3C04F00AB37E1 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
-		89E20C6329A4630D00125140 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		89E20C6429A4689B00125140 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,7 +81,6 @@
 				8986E84D29A39C34000B1154 /* demo.mp4 */,
 				8976310C29A1C97B00596D3B /* BackgroundItemsAddedKiller.entitlements */,
 				8976310929A1C97B00596D3B /* Preview Content */,
-				89E20C6329A4630D00125140 /* README.md */,
 			);
 			path = BackgroundItemsAddedKiller;
 			sourceTree = "<group>";
