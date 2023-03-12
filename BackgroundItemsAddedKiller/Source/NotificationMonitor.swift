@@ -95,7 +95,7 @@ private extension NotificationMonitor {
         guard let loginItemElements = (NotificationMonitor.getSubElements(root: process.element) {
             let description: String? = try? UIElement($0).attribute(.description)
 
-            return description == "Login Items"
+            return description == "Login Items" || description == "Disk Not Ejected Properly"
         }) else {
             return finishBatch()
         }

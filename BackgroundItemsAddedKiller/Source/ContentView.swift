@@ -54,7 +54,7 @@ struct ContentView: View {
                                 NSRunningApplication.current.terminate()
                             }
                         } else {
-                            RectangleButton(text: "Monitor & kill \"Background item added...\" notifications", highlightByDefault: true) {
+                            RectangleButton(text: "Monitor & kill \"Background item added...Disk Disk Not Ejected...\" notifications", highlightByDefault: true) {
                                 player.pause()
 
                                 if monitor.setup() {
