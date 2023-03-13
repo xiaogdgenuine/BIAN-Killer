@@ -46,6 +46,14 @@ struct ContentView: View {
                             }
                             .padding([.top])
                     }
+                  
+                    Button("Edit notification descriptions"){
+                      let editorView = DescrptionsEditor()
+                      let controller = DetailWindowController(rootView: editorView)
+                      controller.window?.title = "Descriptions Editor"
+                      controller.showWindow(nil)
+                    }
+                    .frame(maxWidth: .infinity,alignment: .center)
 
                     Group {
                         if monitor.isRunning {
@@ -54,7 +62,7 @@ struct ContentView: View {
                                 NSRunningApplication.current.terminate()
                             }
                         } else {
-                            RectangleButton(text: "Monitor & kill \"Background item added...Disk Disk Not Ejected...\" notifications", highlightByDefault: true) {
+                          RectangleButton(text: "Monitor & kill \(monitor.descriptions.count) notifications", highlightByDefault: true) {
                                 player.pause()
 
                                 if monitor.setup() {

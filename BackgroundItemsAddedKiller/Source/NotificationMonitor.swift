@@ -14,6 +14,12 @@ class NotificationMonitor: ObservableObject {
     var scheduledClean: DispatchWorkItem?
     var sequence: TimedSequence<AXUIElement>?
     var isRunning = false
+    var descriptions:[String]{
+      get { getDescriptions() }
+      set {
+        UserDefaults.standard.setValue(newValue, forKey: descriptionsOfNotification)
+      }
+    }
 
     @discardableResult
     func setup() -> Bool {
@@ -95,7 +101,7 @@ private extension NotificationMonitor {
         guard let loginItemElements = (NotificationMonitor.getSubElements(root: process.element) {
             let description: String? = try? UIElement($0).attribute(.description)
 
-            return description == "Login Items" || description == "Disk Not Ejected Properly"
+          return descriptions.contains{ $0 == description }
         }) else {
             return finishBatch()
         }
@@ -167,3 +173,18 @@ private extension NotificationMonitor {
     }
 
 }
+
+extension NotificationMonitor {
+  func getDescriptions() -> [String] {
+    if let descriptions = UserDefaults.standard.array(forKey: descriptionsOfNotification) as? [String] {
+      return descriptions
+    }
+    UserDefaults.standard.set(defaultDescriptions, forKey: descriptionsOfNotification)
+    return defaultDescriptions
+  }
+}
+
+let defaultDescriptions = [
+   "Login Items",
+   "磁盘没有正常推出"
+]
