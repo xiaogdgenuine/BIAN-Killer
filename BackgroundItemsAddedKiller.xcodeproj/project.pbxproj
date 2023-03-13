@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		766CC6F429BE9289003F4215 /* DescritptionsEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766CC6F329BE9289003F4215 /* DescritptionsEditor.swift */; };
 		8976310429A1C97A00596D3B /* BackgroundItemsAddedKillerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8976310329A1C97A00596D3B /* BackgroundItemsAddedKillerApp.swift */; };
 		8976310629A1C97A00596D3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8976310529A1C97A00596D3B /* ContentView.swift */; };
 		8976310829A1C97B00596D3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8976310729A1C97B00596D3B /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		766CC6F329BE9289003F4215 /* DescritptionsEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescritptionsEditor.swift; sourceTree = "<group>"; };
 		8976310029A1C97A00596D3B /* BIAN Killer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BIAN Killer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8976310329A1C97A00596D3B /* BackgroundItemsAddedKillerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundItemsAddedKillerApp.swift; sourceTree = "<group>"; };
 		8976310529A1C97A00596D3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			children = (
 				8976311829A373BC00596D3B /* Source */,
 				8976310329A1C97A00596D3B /* BackgroundItemsAddedKillerApp.swift */,
+				766CC6F329BE9289003F4215 /* DescritptionsEditor.swift */,
 				8986E84929A3969A000B1154 /* AppDelegate.swift */,
 				8976310729A1C97B00596D3B /* Assets.xcassets */,
 				8986E84D29A39C34000B1154 /* demo.mp4 */,
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89E20C6529A4689B00125140 /* AboutView.swift in Sources */,
+				766CC6F429BE9289003F4215 /* DescritptionsEditor.swift in Sources */,
 				8986E85029A3A3D8000B1154 /* RectangleButton.swift in Sources */,
 				8976310629A1C97A00596D3B /* ContentView.swift in Sources */,
 				8986E85229A3A458000B1154 /* ViewExtensions.swift in Sources */,
@@ -330,7 +334,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BackgroundItemsAddedKiller/Preview Content\"";
-				DEVELOPMENT_TEAM = LD9DHUY7M9;
+				DEVELOPMENT_TEAM = VFBLFL665K;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -360,7 +364,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BackgroundItemsAddedKiller/Preview Content\"";
-				DEVELOPMENT_TEAM = LD9DHUY7M9;
+				DEVELOPMENT_TEAM = VFBLFL665K;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

@@ -11,6 +11,7 @@ import SwiftUI
 import AXSwift
 
 let notificationCenterBundleId = "com.apple.notificationcenterui"
+let descriptionsOfNotification = "descriptionsOfNotification"
 let windowSize = CGSize(width: 600, height: 400)
 var configWindow = NSWindow(contentRect: NSRect(origin: .zero, size: windowSize), styleMask: [.closable, .titled], backing: .buffered, defer: false)
 
